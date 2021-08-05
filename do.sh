@@ -9,7 +9,7 @@ sh defistation.sh
 
 md_fpath="./defi_tvl.md"
 
-echo -e "## DeFi TVL(Total Value Locked) [$curr_date]\n" > $md_fpath
+echo -e "## DeFi TVL(Total Value Locked) Gather [$curr_date]\n" > $md_fpath
 echo -e "##### Include [DeBank](https://debank.com/ranking/locked_value) [DeFiBox](https://www.defibox.com/defirange/?type=all&chain=all) [DEFISTATION](https://www.defistation.io/) [DeFiLlama](https://defillama.com/home)\n---\n" >> $md_fpath
 
 echo -e "### DeFi TVL History Data\n" >> $md_fpath
